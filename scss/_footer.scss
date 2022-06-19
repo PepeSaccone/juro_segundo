@@ -1,0 +1,20 @@
+.nav{
+    justify-content: space-around;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
+
+/* Paso a columna para ordenar los items */
+@media (max-width: 450px) {
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerNav--FirstItem{
+        order: 4;
+        margin: 10px;
+    }
+}

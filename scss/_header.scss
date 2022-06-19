@@ -1,0 +1,19 @@
+header {
+    margin-bottom: 1rem;
+
+    .header__navbar{
+        box-shadow: 2px 2px 20px black;
+
+        .a__header__img {
+            height: 40px;
+        }
+        
+        .nav-item {
+            margin-left: 1rem;
+        }
+    }
+}
+
+.header__index{
+    margin-bottom: 0;
+}

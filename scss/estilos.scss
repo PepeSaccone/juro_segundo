@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "header";
+
+@import "footer";
+
+
+
+.main__img--index{
+    height: 85vh;
+    scale: auto;
+    filter: grayscale(1);
+}
+
+
+.carousel-caption{
+    font-weight: 600;
+    text-shadow: black .7px .7px;
+}
+
+@media (max-width: 1024px) {
+    .main__img--index{
+        height: auto;
+    }
+    }
