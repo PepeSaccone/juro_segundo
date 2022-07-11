@@ -15,6 +15,8 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Link a hoja de estilos -->
     <link rel="stylesheet" href="../css/estilos.css">
+            <!-- Favicon -->
+            <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/favicon-32x32.png">
 </head>
 
 <body>
@@ -51,7 +53,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="bg-light">
         <!--Carrusel-->
         <div id="carruselIndex" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
@@ -64,7 +66,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../imagenes/Escuela.jpg" class="main__img--index d-block w-100" alt="Proyecto de educacion">
+                    <img src="../imagenes/Escuela.jpg" class="main__img--index d-block w-100"
+                        alt="Proyecto de educacion">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Ullevi</h5>
                         <p>Representacion de la fortaleza Vikinga</p>
@@ -78,24 +81,130 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../imagenes/paisajismo.jpg" class="main__img--index d-block w-100" alt="Proyecto de paisajismo">
+                    <img src="../imagenes/paisajismo.jpg" class="main__img--index d-block w-100"
+                        alt="Proyecto de paisajismo">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Disrupcion bestial</h5>
-                        <p>Ubicado en el corazon de Londres, centro de influencia económica y cultural a nivel mundial</p>
+                        <p>Ubicado en el corazon de Londres, centro de influencia económica y cultural a nivel mundial
+                        </p>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carruselIndex"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselIndex" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carruselIndex"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselIndex" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <!-- Encabezado -->
+        <h2 class="titulo__index  font-monospace">
+            <q><small>La arquitectura debería hablar de su tiempo y lugar, pero anhelar la atemporalidad.</small></q>
+        </h2>
+        <p class="encabezado__parrafo bg-light font-monospace">- Frank Gehry.</p>
+        <hr>
+        <!--Cartas-->
+        <div class="cartas font-monospace">
+            <h5 class="titulo__Cartas"><strong>Oficios de excelencia</strong></h5>
+            <div class="card-group ">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Comerciales</strong></h5>
+                        <p class="card-text">Nuestro equipo multidisiplinario entrega proyectos sofisticados
+                            arduamente
+                            trabajados, que se encuentran y superan las expectativas de nuestros clientes. Nuestra
+                            meta
+                            son
+                            diseños bellos y altamente eficientes donde trabajar para que brinde valor a los usarios
+                            y
+                            dueños</p>
+                        <p class="card-text"><small class="text-muted">12 proyectos finalizados</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Culturales</strong></h5>
+                        <p class="card-text">Arquitectura, diseño urbano y cultura estan delicadamente relacionadas.
+                            Visionamos construcciones y espacios que estan configurados para la vida cultiral.
+                        </p>
+                        <p class="card-text"><small class="text-muted">3 proyectos finalizados</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Residenciales</strong></h5>
+                        <p class="card-text">¿Que hace a un hogar? Miramos cada proyecto como una oportunidad para
+                            responder
+                            dicha pregunta. Buscamos maneras donde la arquitecura pueda reforzar los sentimientos de
+                            confort, seguridad y emociones que conforman nuestro hogar.</p>
+                        <p class="card-text"><small class="text-muted">74 proyectos finalizados</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--Acordion-->
+        <div>
+            <h2 class="encabezado__acordion fw-lighter"><strong>Nuestros valores</strong></h2>
+            <div class="accordion accordion-flush w-75" id="acordion__index">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Calidad y Compromiso
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#acordion__index">
+                        <div class="accordion-body">Para el estudio, calidad empieza con el primer encuentro entre
+                            el
+                            arquitecto y el cliente. Desde este momento, el compromiso con la profesión lleva a
+                            enfocar
+                            las necesidades y posibilidades individuales de cada cliente, desarrollando soluciones
+                            personalizadas de alta calidad en diseño y materiales.
+                            Contando con un equipo de arquitectos profesionales, brinda un servicio y asesoramiento
+                            de
+                            alta gama desde el primer análisis hasta la finalización satisfactoria del proyecto en
+                            cuanto a calidad, tiempo y costo.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Seriedad y Honestidad
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#acordion__index">
+                        <div class="accordion-body">Para el estudio, la obra es el resultado de un diseño basado en
+                            la estrecha relación entre gente y arquitecto, en donde el objetivo central es el
+                            perfecto entrendimiento de sus necesidades y de la habilidad para volcar sus valores en
+                            el proceso del diseño. Por lo tanto, confianza, onestidad y transparencia en el momento
+                            de planificar, diseñar, cotizar y ejecutar son consideradas valores centrales para el
+                            estudio.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Experiencia
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#acordion__index">
+                        <div class="accordion-body">Estudio Juro se destaca por sus más de 35 años de experiencia
+                            en proyectos arquitectonicos nacionales, que les permite garantizar el optimo desarrollo
+                            de sus proyectos: desde los primeros planos hasta la terminación de la obra.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
     </main>
     <footer class="bg-light">
         <ul class="nav">
@@ -113,8 +222,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
-            <li><a href="//www.instagram.com" target="_blank"><img class="translate-bottom-y"
-                        src="../imagenes/instagram.png" alt="Insta"></a>
+            <li class="footerNav--lastItem"><a href="//www.instagram.com" target="_blank"><img
+                        class="translate-bottom-y" src="../imagenes/instagram.png" alt="Insta"></a>
             </li>
         </ul>
     </footer>

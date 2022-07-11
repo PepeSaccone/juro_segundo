@@ -12,6 +12,8 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Link a hoja de estilos -->
     <link rel="stylesheet" href="../css/estilos.css">
+            <!-- Favicon -->
+            <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/favicon-32x32.png">
 </head>
 <body>
     <header>
@@ -46,12 +48,36 @@
             </div>
         </nav>
     </header>
-    <main>
-
+     <!--Form de contacto-->
+    <main class="contact">
+        <div class="form">
+            <div>
+                <h4 class="fw-light header__contacto">
+                    ¡Dejanos tu mensaje! Te contactaremos a la brevedad.
+                </h4>
+            </div>
+            <div>
+                <label for="text" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="text" placeholder="Pedro Saccone">
+            </div>
+            <div>
+                <label for="subjetEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="subjetEmail" placeholder="nombre@ejemplo.com">
+            </div>
+            <div>
+                <label for="textArea" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="textArea" placeholder="Escriba su consulta aqui" rows="3"></textarea>
+            </div>
+             <!--Boton de submit-->
+            <div class="contact__button">
+                <input class= "contact__button-submit fw-light bg-light" last buttotype="submit" value="Enviar">
+            </div>
+        </div>
     </main>
     <footer class="bg-light">
         <ul class="nav">
-            <li  class="footerNav--FirstItem"><a href="//www.facebook.com" target="_blank"> <img src="../imagenes/facebook.png" alt="FB"></a></li>
+            <li class="footerNav--FirstItem"><a href="//www.facebook.com" target="_blank"> <img
+                        src="../imagenes/facebook.png" alt="FB"></a></li>
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -64,8 +90,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
-            <li><a href="//www.instagram.com" target="_blank"><img class="translate-bottom-y" src="../imagenes/instagram.png"
-                        alt="Insta"></a>
+            <li class="footerNav--lastItem"><a href="//www.instagram.com" target="_blank"><img class="translate-bottom-y"
+                        src="../imagenes/instagram.png" alt="Insta"></a>
             </li>
         </ul>
     </footer>
